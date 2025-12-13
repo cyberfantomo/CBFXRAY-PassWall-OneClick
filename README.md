@@ -29,9 +29,12 @@
 #### ✅ Совместимость (протестированные модели)
 ##### GL.iNet: 
 - GL-E750 / GL-E750V2
+- GL-XE300
 - GL-SFT1200
 - GL-AR750S‑Ext
-- GL-AR300M / GL-AR300M16 (+USB Flash или microSD для расширения памяти)
+- GL-AR750 (+USB Flash или microSD для расширения памяти)
+- GL-X750  (+USB Flash для расширения памяти)
+- GL-AR300M / GL-AR300M16 (+USB Flash для расширения памяти)
 ##### Другие: 
 - TP‑Link Archer C6 (v3)
 - MikroTik hAP ac2
