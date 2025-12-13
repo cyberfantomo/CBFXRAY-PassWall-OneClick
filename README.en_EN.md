@@ -18,7 +18,7 @@
 
 ---
 
-⚙️ System requirements:
+#### ⚙️ System requirements:
 - CPU ~600 MHz
 - RAM ~128 MB
 - Flash ~20 MB
@@ -27,9 +27,17 @@
 ---
 
 #### ✅ Compatibility (tested models)
-- GL.iNet: GL-E750 / GL-E750V2, GL-A1200, GL-AR750S‑Ext, GL-AR300M / GL-AR300M16 (требуется USB‑накопитель для расширения Flash памяти)
-- Другие: TP‑Link Archer C6 (v3), MikroTik hAP ac2
-- Almost any router model with OpenWrt that meets the system requirements is suitable
+##### GL.iNet: 
+- GL-E750 / GL-E750V2
+- GL-A1200
+- GL-AR750S‑Ext
+- GL-AR300M / GL-AR300M16 (требуется USB‑накопитель для расширения Flash памяти)
+##### Others:
+- TP‑Link Archer C6 (v3)
+- MikroTik hAP ac2
+##### Almost any router model with OpenWrt that meets the system requirements is suitable
+
+---
 
 ## Installation of PassWall v1
 
