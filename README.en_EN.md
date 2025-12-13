@@ -16,13 +16,21 @@
 
 ---
 
+⚙️ System requirements:
+- CPU ~600 MHz
+- RAM ~128 MB
+- Flash ~20 MB
+- OpenWrt v22+
+
+---
+
 #### ✅ Compatibility
 - GL.iNet: GL-E750 / GL-E750V2, GL-A1200, GL-AR750S‑Ext, GL-AR300M / GL-AR300M16 (требуется USB‑накопитель для расширения Flash памяти)
 - Другие: TP‑Link Archer C6 (v3), MikroTik hAP ac2
 
 ## Installation of PassWall v1
 
-#### 💽One-Click command for installation from the router
+#### 💽 One-Click command for installation from the router
 To install, log into the router via SSH, copy and paste this command:
 
 ```bash
