@@ -34,7 +34,7 @@
 Для установки войдите в роутер по SSH, затем скопируйте и вставьте следующую команду:
 
 ```bash
-wget -O passwall-v1-autoinstaller-v2.sh https://raw.githubusercontent.com/cyberfantomo/CBFXRAY-PassWall-OneClick/refs/heads/main/passwall-v1-autoinstaller-v2.sh && chmod +x passwall-v1-autoinstaller-v2.sh && ./passwall-v1-autoinstaller-v2.sh
+wget -O passwall-v1-autoinstaller-v2.sh https://raw.githubusercontent.com/cyberfantomo/CBFXRAY-PassWall-OneClick/refs/heads/main/passwall-v1-autoinstaller-v2.sh && chmod +x passwall-v1-autoinstaller-v2.sh && ash passwall-v1-autoinstaller-v2.sh
 ```
 
 ---
