@@ -1,6 +1,8 @@
 ## 13.12.2025 | [Русский](/README.md) | [English](/README.en_EN.md)
 ## 🔥 PassWall Xray v1 | Auto‑Installer v2 by CyberFantomo!
 
+<img src="https://raw.githubusercontent.com/cyberfantomo/CBFXRAY-PassWall-OneClick/refs/heads/main/PassWall_ScreenShot.png" border="0">
+
 ### PassWall — a LuCI‑package for OpenWrt, providing a convenient graphical interface for managing modern proxy kernels Xray and Sing‑box. It supports the ShadowSocks, TROJAN, VLESS, VMESS, and other protocols. It has the ability to import subscriptions and configurations via URL, which simplifies the deployment and updating of proxy profiles.
 ### PassWall Xray v1 | Auto‑Installer v2 by CyberFantomo — an auto‑installer that downloads and installs all dependencies for PassWall v1 (kernels, utilities, libraries, certificates, LuCI‑modules) and performs minimal pre‑configuration (dns, autostart, etc.). After installation, you only need to add and run your tunnels in the PassWall interface.
 
