@@ -26,9 +26,10 @@
 
 ---
 
-#### ✅ Compatibility
+#### ✅ Compatibility (tested models)
 - GL.iNet: GL-E750 / GL-E750V2, GL-A1200, GL-AR750S‑Ext, GL-AR300M / GL-AR300M16 (требуется USB‑накопитель для расширения Flash памяти)
 - Другие: TP‑Link Archer C6 (v3), MikroTik hAP ac2
+- Almost any OpenWrt model is compatible, as long as it has sufficient RAM and flash memory
 
 ## Installation of PassWall v1
 
