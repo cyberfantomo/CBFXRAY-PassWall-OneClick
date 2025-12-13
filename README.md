@@ -31,7 +31,7 @@
 - GL-E750 / GL-E750V2
 - GL-SFT1200
 - GL-AR750S‑Ext
-- GL-AR300M / GL-AR300M16 (требуется USB‑накопитель для расширения Flash памяти)
+- GL-AR300M / GL-AR300M16 (+USB Flash или microSD для расширения памяти)
 ##### Другие: 
 - TP‑Link Archer C6 (v3)
 - MikroTik hAP ac2
