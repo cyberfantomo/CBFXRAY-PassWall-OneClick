@@ -8,10 +8,18 @@ echo -e '\033[1;38;5;208m         Официальный сайт: www.cbf.st \0
 echo -e '\033[1;34m       Для Роутеров на базе OpenWRT v22+\033[0m'
 echo -e '\033[1;34m───────────────────────────────────────────\033[0m'
 
-# Установка зависимостей / Installing dependencies
-# Smart Update for Gl.iNet
-curl -O https://codeberg.org/reserv-repo/gl075/raw/branch/main/smt_update2.sh && chmod +x smt_update2.sh && ash smt_update2.sh
-opkg install bash
+# Обновление и установка зависимостей / Updating and installing dependencies
+# Проверяем, если роутер gl-inet / Check if the router is gl-inet
+FEEDFILE=${FEEDFILE:-/etc/opkg/distfeeds.conf}
+[ -f "$FEEDFILE" ] || { opkg update || true; echo "Feed file not found"; }
+if grep -q "gl-inet.com" "$FEEDFILE"; then
+  sed -i 's|gl-inet\.com|gl-inet.cn|g' "$FEEDFILE"
+fi
+opkg update || true
+opkg install bash wget curl
+
+sleep 3
+
 # Скачивание и установка ключа для репозитория PassWall / Downloading and installing the key for the PassWall repo
 wget -O passwall.pub https://master.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
 opkg-key add passwall.pub
