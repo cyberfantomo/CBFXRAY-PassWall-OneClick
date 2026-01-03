@@ -1,4 +1,4 @@
-## 13.12.2025 | [Русский](/README.md) | [English](/README.en_EN.md)
+## 03.01.2026 | [Русский](/README.md) | [English](/README.en_EN.md)
 ## 🔥 PassWall Xray v1 | Auto‑Installer v2 by CyberFantomo!
 
 <img src="https://raw.githubusercontent.com/cyberfantomo/CBFXRAY-PassWall-OneClick/refs/heads/main/PassWall_ScreenShot.png" border="0">
